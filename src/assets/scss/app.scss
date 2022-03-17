@@ -1,0 +1,23 @@
+@import 'imports/reset';
+@import 'imports/var';
+@import 'imports/fonts';
+
+body{
+  background-color: $gris-oscuro;
+}
+
+header, footer{
+  background-color: $gris-claro;
+}
+
+h1{
+  font-family: $titulos;
+}
+
+li{
+  display: inline-block;
+}
+
+a{
+  color: $gris-claro;
+}
