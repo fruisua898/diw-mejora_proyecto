@@ -1,0 +1,45 @@
+@import "https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Lato:ital,wght@1,300&display=swap";
+/*Colores Principales*/
+/* Hex: BAC6BA495160*/
+/* Hex: BAC6BA*/
+/* Hex: A4F9BB*/
+/* Hex: 4550BA*/
+/* Hex: BAC6BA*/
+/*Font Families*/
+main {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+}
+main section {
+  width: 65vw;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  color: #bac6ba;
+  font-size: 1.3rem;
+  margin-right: 20%;
+}
+main section p {
+  margin-top: 3rem;
+  height: 15vh;
+}
+main aside {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+main aside li {
+  margin-top: 2.5rem;
+  display: flex;
+}
+main aside li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+/*# sourceMappingURL=index.b60c5fad.css.map */

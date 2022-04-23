@@ -1,12 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Lato:ital,wght@1,300&display=swap');
 /*Colores Principales*/
-    $gris-oscuro: rgba(73, 81, 96, 1);             /* Hex: 495160*/
+    $gris-oscuro: rgba(73, 81, 96, 1);             /* Hex: BAC6BA495160*/
     $gris-claro: rgba(186, 198, 186, 1);           /* Hex: BAC6BA*/
     $verde-claro: rgba(164, 249, 187, 1);          /* Hex: A4F9BB*/
     $azul-oscuro: rgba(69, 80, 186, 1);            /* Hex: 4550BA*/
     $gris-oscuro-opa: rgba(73, 81, 96, 0.8);       /* Hex: BAC6BA*/
 /*Font Families*/
-    $titulos: Cinzel;
-    $texto: Lato;
+    $titulos: 'Cinzel Decorative', serif;
+    $texto: 'Lato', sans-serif;
 
 

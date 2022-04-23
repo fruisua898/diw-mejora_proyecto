@@ -1,23 +1,78 @@
 @import 'imports/reset';
 @import 'imports/var';
-@import 'imports/fonts';
+
 
 body{
+  width: 100%;
   background-color: $gris-oscuro;
 }
 
+svg {
+  stroke: $gris-claro;
+}
+
+header, footer, nav {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  color: $gris-oscuro;
+}
+
+header, nav {
+  align-items: center;
+  align-content: space-around;
+}
+
+
 header, footer{
   background-color: $gris-claro;
+  font-size: 2rem;
 }
+
+footer{
+  align-items: center;
+  font-size: 1rem;
+  color: $gris-oscuro;
+  ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    li {
+      padding: 0.5rem;
+      &:hover{
+        color: $gris-claro;
+      }
+    }
+  }
+}
+
 
 h1{
   font-family: $titulos;
 }
 
-li{
-  display: inline-block;
+nav, aside{
+
+  ul {
+    margin-top: 1rem;
+
+    li {
+      display: inline-block;
+      font-size: 1.2rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+
+      a{
+        color: $gris-claro;
+      }
+    }
+  }
 }
 
-a{
-  color: $gris-claro;
-}
+
+
+
+
+
