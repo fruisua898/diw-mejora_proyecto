@@ -53,14 +53,16 @@ h1{
   font-family: $titulos;
 }
 
-nav, aside{
+nav{
 
   ul {
+    padding: 1rem;
     margin-top: 1rem;
+    border-bottom: 10px solid $gris-claro;
 
     li {
       display: inline-block;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       margin-right: 2rem;
       margin-left: 2rem;
 

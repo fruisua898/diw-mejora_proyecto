@@ -3,44 +3,50 @@
 
 
 
-
 main {
     height: 70vh;
     width: 100%;
-
     display: flex;
 
     section{
-        width: 65vw;
-        padding: 1rem;  
+        padding: 1rem;
         display: flex;
         flex-direction: column;
-        display: flex;
         color: $gris-claro;
         font-size: 1.3rem;
-        margin-right: 20%;
-        p {
-            margin-top: 3rem;
-            height: 15vh;
-        }
+        align-items: center;
     }
+
     aside {
-        width: 35vw;
         display: flex;
+        width: 100%;
+        justify-content: space-around;
         flex-direction: row;
-        justify-content: center;
-        align-items: baseline;
-        li {
-            margin-top: 2.5rem;
+        color: $gris-claro;
+        align-items: flex-start;
+        ul{
             display: flex;
-            a{
+            flex-direction: column;
+            li{
                 display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-content: center;
+                padding: 2rem;
+                font-size: 1.5rem;
             }
         }
-     
+
+    }
+
+    p {
+        margin-top: 3rem;
+        height: 15vh;
     }
 }
 
+
+@media (min-width: $portatil) and (max-width: $pc){
+    aside > ul{
+
+        font-size: 100000rem;
+    }
+
+}
