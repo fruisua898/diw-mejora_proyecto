@@ -1,0 +1,60 @@
+@import 'imports/var';
+
+main {
+
+  section{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    .equipo, .monsters{
+      background-size: cover;
+      width: 60vw;
+      height: 25vh;
+      margin-bottom: 2rem;
+      border-radius: 3.2rem;
+    }
+    .equipo{
+      background-image: url(
+      '../img/items.png');
+    }
+    .monsters{
+      background-image: url(
+      '../img/monsters.png');
+    }
+  }
+}
+
+
+@media (max-width: $portatil){
+  main{
+    flex-wrap: wrap;
+    display: flex;
+    height: auto;
+    width: auto;
+    section{
+      display: flex;
+
+      font-size: 1.3rem;
+      p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        height: auto;
+      }
+      img {
+        width: 75%;
+      }
+
+    }
+    aside {
+      ul{
+        display: none;
+      }
+    }
+
+  }
+
+}

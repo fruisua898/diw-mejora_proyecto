@@ -1,0 +1,28 @@
+@import 'imports/var';
+
+form {
+  height: auto;
+  width: 85%;
+  color: $gris-claro;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  justify-content: center;
+  align-content: center;
+  input{
+    padding: 1rem;
+    border-radius: 1.3rem;
+  }
+
+  h2{
+    font-size: 2.5rem;
+    font-family: $titulos;
+
+  }
+  h3{
+    font-size: 2rem;
+    font-family: $titulos;
+  }
+}
+
