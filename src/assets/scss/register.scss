@@ -1,28 +1,47 @@
 @import 'imports/var';
-
-form {
-  height: auto;
-  width: 85%;
-  color: $gris-claro;
-  padding: 5rem;
-  display: flex;
-  flex-direction: column;
-  font-size: 1.3rem;
+main {
+  width: 100%;
   justify-content: center;
   align-content: center;
-  input{
-    padding: 1rem;
-    border-radius: 1.3rem;
-  }
+  form {
+    width: 50%;
+    color: $gris-claro;
+    padding: 5rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    align-items: center;
+    background-image: url("../img/form-bg.svg");
 
-  h2{
-    font-size: 2.5rem;
-    font-family: $titulos;
 
-  }
-  h3{
-    font-size: 2rem;
-    font-family: $titulos;
+    input{
+     width: 55%;
+      border-radius: 1.3rem;
+    }
+
+    label{
+      padding: 1rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      font-family: $titulos;
+
+    }
+
+    h3 {
+      font-size: 2rem;
+      font-family: $titulos;
+    }
+
+    button {
+
+      width: 25%;
+      height: 3rem;
+      margin-top: 1rem;
+      border-radius: 1rem;
+    }
   }
 }
 
