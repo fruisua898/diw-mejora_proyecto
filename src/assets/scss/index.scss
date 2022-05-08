@@ -4,38 +4,21 @@
 
 main {
     section{
-        padding: 1rem;
+        padding: 3rem;
         display: flex;
         flex-direction: column;
         color: $gris-claro;
         font-size: 1.3rem;
         align-items: center;
-
+        width: 50%;
+        h1{
+            align-self: flex-start;
+        }
         p {
             margin-top: 3rem;
             height: 15vh;
         }
     }
-
-    aside {
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-        flex-direction: row;
-        color: $gris-claro;
-        align-items: flex-start;
-        ul{
-            display: flex;
-            flex-direction: column;
-            li{
-                display: flex;
-                padding: 2rem;
-                font-size: 1.5rem;
-            }
-        }
-
-    }
-
 }
 
 
@@ -47,7 +30,7 @@ main {
         width: auto;
         section{
             display: flex;
-
+            margin-left: 0;
             font-size: 1.3rem;
             p {
                 margin-top: 5rem;
@@ -64,7 +47,6 @@ main {
                 display: none;
             }
         }
-
     }
 
 }
