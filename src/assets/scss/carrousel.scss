@@ -1,0 +1,67 @@
+@import 'imports/var';
+
+.slider {
+  border-radius: 5px;
+  box-shadow: 5px 5px hsl(0, 0%, 76%);
+  position: relative;
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li{
+      position: relative;
+      display: none;
+      width: 65vw;
+      height:350px;
+      animation-name: fade;
+      animation-duration: 3s;
+      img, video, audio{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      span{
+        border-radius: 5px;
+        font-family: $titulos;
+        font-size: 5rem;
+        position: absolute;
+        bottom: 0;
+        background: hsl(0, 1%, 72%, .6);
+        left: 0;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+        color: $gris-oscuro;
+      }
+    }
+  }
+  article{
+    position: absolute;
+    top: 40%;
+    width:  100%;
+    span{
+      color: $gris_claro;
+      font-size: 2rem;
+      position: absolute;
+      cursor: pointer;
+      width: 50px;
+      text-align: center;
+      &:hover{
+        background: hsl(0, 0%, 25%);
+        color: hsl(0, 0%, 93%);
+      }
+    }
+    .next{
+      right: 0;
+    }
+    left{
+      left: 0;
+    }
+  }
+}
+
+@keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}

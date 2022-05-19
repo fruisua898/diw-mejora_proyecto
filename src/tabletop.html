@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/scss/app.scss"/>
-    <link rel="stylesheet" href="assets/scss/index.scss"/>
+
+    <link rel="stylesheet" href="assets/scss/carrousel.scss"/>
+    <script src="assets/js/slider.js"></script>
     <title>Document</title>
 </head>
 <body>
+
 <script>
     function myFunction() {
         check = document.getElementById("nav-container").style.display;
@@ -83,12 +86,45 @@
     </ul>
 </nav>
 <main>
-    <section>
-        <video width="80%" controls>
-            <source src="../src/assets/videos/intro.mp4" type="video/mp4"/>
-            <source src="../src/assets/videos/intro.ogg" type="video/ogg"/>
-        </video>
+
+    <section class="slider">
+        <ul>
+            <li>
+                <video controls>
+                    <source src="../src/assets/videos/intro.mp4" type="video/mp4"/>
+                    <source src="../src/assets/videos/intro.ogg" type="video/ogg"/>
+                </video>
+            </li>
+            <li>
+                <audio controls>
+                    <source src="../src/assets/sound/ambient.ogg" type="audio/ogg">
+                    <source src="../src/assets/sound/ambient.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+
+            <li>
+                <a href="index.html">
+                    <img alt="imagen" srcset="assets/img/background-300.png 300w,
+                                      assets/img/background-600.png 600w,
+                                      assets/img/background-900.png 900w"
+                         sizes="(max-width: 300px) 300px,
+                                     (max-width: 600px) 600px,
+                                     900px"
+                         src="assets/img/background-900.png"/><span>Index</span>
+                </a>
+            </li>
+
+        </ul>
+        <article>
+            <span class="next">&#10095;</span>
+            <span class="prev">&#10094;</span>
+        </article>
     </section>
+
+
+
+
 
 
 </main>
