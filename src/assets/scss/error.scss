@@ -1,0 +1,38 @@
+@import 'imports/var';
+.error {
+  span {
+    animation: color 10s infinite;
+    font-size: 15rem;
+    font-family: $titulos;
+  }
+}
+
+@keyframes color {
+  0% {
+    color: #D1F2A5;
+  }
+  25% {
+    color: #F56991;
+  }
+  45% {
+    color: #A66A6A;
+  }
+
+  60%{
+    color: #CF4444
+  }
+
+  100% {
+    color: #BAC6BA;
+  }
+}
+
+@media (max-width: $mobile) {
+
+  .error {
+    span {
+      font-size: 10rem;
+    }
+  }
+
+}

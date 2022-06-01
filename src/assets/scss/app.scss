@@ -12,6 +12,7 @@ body{
     svg:hover{
 
       transform: skew(10deg);
+      transition: 0.5s;
     }
   }
   nav{
@@ -28,6 +29,7 @@ body{
         margin-left: 2rem;
         &:hover{
           transform: scale(1.2);
+          transition: 0.5s;
         }
         a{
           color: $gris-claro;
@@ -62,6 +64,7 @@ body{
           font-size: 1.5rem;
           &:hover{
             transform: scale(1.2);
+            transition: 0.5s;
           }
           button {
             width: 100%;
