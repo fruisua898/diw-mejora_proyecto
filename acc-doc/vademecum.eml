@@ -1,0 +1,2976 @@
+Delivered-To: fruiz.alumno@iesrafaelalberti.es
+Received: by 2002:ac8:40ce:0:0:0:0:0 with SMTP id f14csp5116495qtm;
+        Wed, 8 Jun 2022 09:04:57 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJwfaHym9FpOayWYiDffUK11qFvOSBBZSV/TwRD6fezUiYArpzXyxFVRHsysYdaObUAf6Gf2
+X-Received: by 2002:a05:600c:1f05:b0:39c:51c6:7c85 with SMTP id bd5-20020a05600c1f0500b0039c51c67c85mr16864930wmb.33.1654704297710;
+        Wed, 08 Jun 2022 09:04:57 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1654704297; cv=none;
+        d=google.com; s=arc-20160816;
+        b=xPZVmgrDVUQtyT3kMTpJ8Yyte2+WD3mpih0ifYRUi+Z6YQ5P6GG4yg3cRh4ggUJelp
+         sbDRKxmZOI9NZ/FCv3DNTVhcqa9hkRZ5QKHligMG3R/0PcbjpeC2zvXkT2nCq1YRNteU
+         nRbkUG8Zu5HeaOf5JqKbvGslhRhhILvCbYBH5vshkOFiyZ+6X/HGzaoGHB/EZ8hmgwdU
+         PttYJHKmrKlUtP1CtVbYTnzfU5ECOOXfBhqhyeiH1lOtEGJWFLxB/3MT1k6qYY+F58LP
+         cBSl5cfXoVvUXJnjr1asp1n9QGGnNzap7qv2DdfzLyx5GCiipW9c7NRgbWCdqbNb35HT
+         Rq7A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:subject:message-id:to:from
+         :date;
+        bh=GwRBa3uLA/waSfgTI1ha2GGr2Sq1Z2m4i2i6UKKin6U=;
+        b=j9fWaUHyStVL6WBlroBe2OhZFIm/WZ0S9K/Ekkb259oKdz3j3Ynm3n153mZjwwIJiG
+         FZEk1VE4JbVGMpFDh7m6jr+OT+604fmgNXXePiQvxv9Z9ysWKDv9Zr2McGzyf+p0DQ30
+         oi6VYwZf/mp68zSkgTUjnJPb2n3UppgkGaL1o3P8yE6khLHICKs3d/4jFdMeA+9qiT4X
+         xQjUHG+fC5SIRlOTAi6TgYuJiLdVF8ikHbfGZB4fCx5GHEvvasrRe2udCeBbDZbcs/C9
+         xRnhoJ1YjGViQ795//wtXwz6HhhU97LU+ho/6yp8sT+FlONcY7K2HDS+buAkUAXVJjK9
+         arRw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of info@tawdis.net designates 212.89.8.88 as permitted sender) smtp.mailfrom=info@tawdis.net
+Return-Path: <info@tawdis.net>
+Received: from smtp.fundacionctic.org (cme-staticIP-212-89-8-88.telecable.es. [212.89.8.88])
+        by mx.google.com with ESMTPS id i13-20020adffc0d000000b0020d02e2c357si21959161wrr.787.2022.06.08.09.04.57
+        for <fruiz.alumno@iesrafaelalberti.es>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 08 Jun 2022 09:04:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of info@tawdis.net designates 212.89.8.88 as permitted sender) client-ip=212.89.8.88;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of info@tawdis.net designates 212.89.8.88 as permitted sender) smtp.mailfrom=info@tawdis.net
+Date: Wed, 08 Jun 2022 09:04:57 -0700 (PDT)
+Received: from 3a3d57136769 (gijon.fundacionctic.org [192.168.4.14])
+	by smtp.fundacionctic.org (Postfix) with ESMTP id 172EE2E016B
+	for <fruiz.alumno@iesrafaelalberti.es>; Wed,  8 Jun 2022 18:04:57 +0200 (CEST)
+From: info@tawdis.net
+To: fruiz.alumno@iesrafaelalberti.es
+Message-ID: <1782123030.795.1654704297088.JavaMail.root@3a3d57136769>
+Subject: =?UTF-8?Q?[TAWDIS]_Detalle_del_an=C3=A1lisis_https://despliegue?=
+ =?UTF-8?Q?s-franciscoruiz.000webhostapp.com/vademecum.html?=
+MIME-Version: 1.0
+Content-Type: text/html;charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Si no visualiza correctamente este email, puede acceder al <a href=3D"https=
+://www.tawdis.net/detallemail?m=3D75cd2f64393e8072e4a45db7d6714239d7103299"=
+>informe detallado</a> desde su navegador<br/><!DOCTYPE>
+<html lang=3D"es">
+<head>
+<!-- <link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.tawdis.=
+net/css/mail/informe_wcag20.min.css">
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.tawdis.net/c=
+ss/mail/detalle.min.css"> -->
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" />
+<title>TAW | Informe WCAG 2.0
+</title>
+
+<style type=3D"text/css">
+=09html,body{font-family:Arial,Helvetica,verdana,sans serif;margin:0;paddin=
+g:0;width:100%;min-width:800px;position:relative}body{width:100%;font-size:=
+86%;color:#767676}a{text-decoration:none}a img{border:none}table,table *{bo=
+rder-collapse:collapse}#main{position:relative;margin:auto;clear:both;font-=
+size:.9em;max-width:1280px;padding-top:.1em;padding-left:1em}#primera,#cont=
+ent,#banners{position:relative;float:left}#primera{width:18%;overflow:hidde=
+n;background:transparent url(../img/balls2.png) 0 350px no-repeat;min-heigh=
+t:500px;margin-top:30px;width:250px;margin-right:-250px;z-index:20000}#cont=
+ent{font:normal 1.1em trebuchet ms,arial,sans serif;margin-bottom:30px;padd=
+ing-left:240px;padding-right:18%}#banners{width:17%;float:left;margin-left:=
+-17%}.head{float:left;width:100%;overflow:visible;background:#005961 url(..=
+/img/wrapBack.jpg) repeat-x 26px top;position:relative}.head div{max-width:=
+1280px!important;margin:auto}h1{width:auto;height:auto;margin:13px 0 0 25px=
+;float:left;padding:0;color:#FFF;font-size:2em;position:relative}h1 a{displ=
+ay:inline!important;float:left!important;width:auto;padding:0;margin:0;posi=
+tion:relative;overflow:visible}h1 img{vertical-align:middle}h1 a span{displ=
+ay:block;font-size:.5em;text-align:center;color:#777;background-color:#FFF;=
+height:1.1em;overflow:visible;width:210px;letter-spacing:2px;position:absol=
+ute;top:58px;left:0}h1 a span strong{font-size:.65em}.extraMenu,.extraMenu =
+li{margin:0;list-style:none;padding:0}.extraMenu{float:right;font-size:.8em=
+;margin-right:0!important;margin-bottom:0;background-color:#005961;height:7=
+2px}.extraMenu li{text-align:right;padding:1px 4px!important;line-height:21=
+px!important;border:none;position:relative;overflow:visible;text-align:righ=
+t;overflow:visible}.extraMenu li a{text-decoration:none!important;color:#FF=
+F;padding:0!important;background-color:#005961}.extraMenu li a span{positio=
+n:absolute;top:-5000px;left:-5000px}.extraMenu li a:hover span,.extraMenu l=
+i a:focus span{position:absolute;left:auto;top:0;right:23px;display:inline;=
+white-space:nowrap;font-weight:700;padding:0 5px}.extraMenu li.inicio a:hov=
+er span:before,.extraMenu li.inicio a:focus span:before{content:"volver"}.e=
+xtraMenu li.contacto a:hover span:before,.extraMenu li.contacto a:focus spa=
+n:before{content:"contacto"}.extraMenu li.mapa a:hover span:before,.extraMe=
+nu li.mapa a:focus span:before{content:"mapa web"}ul,ul li{margin:0;list-st=
+yle:none;padding:0}ul.tabMenu{float:right;margin-top:40px;position:relative=
+;font-size:1.1em;list-style:none}ul.tabMenu li{float:left;line-height:1.5;c=
+olor:#0091ac;text-align:center;font-family:"Gill Sans MT",Arial,Helvetica,s=
+ans-serif;width:10em;margin:0 1px}ul.tabMenu li.conectado,ul.tabMenu li#exi=
+t{font-weight:400;position:absolute;color:#D2FBFA;width:auto;background-col=
+or:transparent;background-image:none;top:-33px;right:5px;padding:0;border:n=
+one;font-size:.9em;margin:0;line-height:normal}ul.tabMenu li.conectado{righ=
+t:6em;background-image:none}ul.tabMenu li#exit a{background:transparent url=
+(../img/exit.gif) 100% 52% no-repeat;padding:0 1.2em 0 0;font-weight:700;di=
+splay:block;color:#D2FBFA;border:none}ul.tabMenu a,ul.tabMenu li span{color=
+:#0091ac;padding:4px 0;font-weight:700;display:block;border-bottom:none;pad=
+ding-right:10px}ul.tabMenu li.actual,ul.tabMenu a{padding:0;padding-left:10=
+px;background:transparent url(../img/cornerWleft.gif) 0 0 no-repeat}ul.tabM=
+enu a{background:transparent url(../img/cornerGleft.gif) 0 0 no-repeat}ul.t=
+abMenu li.actual{border-bottom:10px solid #FFF}ul.tabMenu li.actual span{co=
+lor:#777}ul.tabMenu li span{background-image:url(../img/cornerWright.gif);b=
+ackground-position:100% 0}ul.tabMenu li a span{background-image:url(../img/=
+cornerGright.gif);color:#777}ul.tabMenu a:hover,ul.tabMenu a:focus,ul.tabMe=
+nu a:active,ul.tabMenu a:hover span,ul.tabMenu a:focus span,ul.tabMenu a:ac=
+tive span{background-image:url(../img/cornerWleft.gif);outline:none;color:#=
+0091ac}ul.tabMenu a:hover span,ul.tabMenu a:focus span,ul.tabMenu a:active =
+span{background-image:url(../img/cornerWright.gif)}ul.tabMenu a:focus{text-=
+decoration:underline}ul.tabMenu li#exit{padding-left:10px;border-left:1px s=
+olid}h2{margin:15px 0 10px;padding:0 15px 0 0;font:bold italic 2em Arial,He=
+lvetica,sans-serif;line-height:1.2em;color:#005961;font-weight:400;width:21=
+%;float:left}h3{margin:10px 0;padding:0;border-bottom:1px solid;color:#0059=
+61;font:bold 1.4em Arial,Helvetica,sans-serif;font-weight:400}h4{font-weigh=
+t:normal!important;margin:25px 0 10px;font-size:1.2em;font-family:arial!imp=
+ortant;color:#005961!important}.adicional{position:absolute;top:-5000px;lef=
+t:-5000px}#informe table img{vertical-align:middle}#resumen{margin:5px;padd=
+ing:5px;min-height:250px;width:90%;clear:both;margin:auto;border:none}#resu=
+men h3{border-bottom:1px solid #49c5c7;font-weight:400;font-size:1em}#resum=
+en ul{border-left:1px solid #C7E3E0;margin-left:2%;margin-top:20px;padding-=
+left:5px;float:left}#resumen li{margin:.2em 0;padding:0;color:#000}#resumen=
+ strong{font-weight:700;color:#1c595a;margin:0}#resumen img{vertical-align:=
+middle}#resumen #loader{border:3px double #C7E3E0;float:right}DIV#loader{bo=
+rder:1px solid #ccc;width:590px;height:180px;overflow:hidden}DIV#loader.loa=
+ding{background:url(../wcag20/img/loading.gif) no-repeat center center}DIV#=
+loader.loading_es{background:url(../wcag20/img/loading-es.gif) no-repeat ce=
+nter center}DIV#loader.loading_en{background:url(../wcag20/img/loading-en.g=
+if) no-repeat center center}#footer{clear:both;float:left;width:100%;font-s=
+ize:.9em;background-color:#D9F5F2;text-align:center;margin-top:10px}#footer=
+ ul,#footer li{margin:0;list-style:none;background-color:#005961;color:#fff=
+;padding:7px 5px}#footer ul{width:99%;max-width:1280px;margin:0 auto;text-a=
+lign:center}#footer li{display:inline;padding:0;font-size:.9em}#footer li a=
+{color:#fff;padding:0 20px}#footer li.first a{border:none}#footer li a:hove=
+r,#footer li a:focus{text-decoration:underline}#footer p{padding:0;margin:0=
+}p.estilo_boton button{background-color:#00828E;border:2px solid #0091AC;co=
+lor:#FFF;font-weight:700;margin:10px 4px 0 0}p.estilo_boton{text-align:cent=
+er;clear:both}#publicidad{float:left;margin:10px 0 0 0}#publicidad em{displ=
+ay:block;width:99%}=09body{color:#575757}#resumen li{margin-right:15px;disp=
+lay:inline}#donar{text-align:center;font-size:1.5em}#donar a{color:#1C595A;=
+text-decoration:underline}#title-info-analisis,caption{text-align:left;padd=
+ing:10px 5px;border-bottom:1px solid;color:#005961;font:bold 1em Arial,Helv=
+etica,sans-serif;font-weight:400;margin:10px 0}#title-info-analisis{width:1=
+00%!important;font-size:2em}.principio{margin:35px 0;border:1px solid #1c59=
+5a}.principio h2{font-size:1.75em!important}.principio caption{margin:0!imp=
+ortant}th{font-size:1em!important;padding:8px 5px}#source_code li{display:i=
+nline;text-decoration:underline;margin-right:15px}#resumen{width:95%!import=
+ant}.srcBlock{margin:20px 0;overflow:hidden}.comprobacion{padding:15px 0 5p=
+x 0;vertical-align:top}#top{position:fixed;height:50px;width:50px;bottom:0;=
+right:0;background-color:#005961;margin:20px;padding:20px}td.lineas a.hidde=
+n{display:none}#source_code{margin:auto auto;margin-top:15px}div.principio =
+h2{margin-top:0;padding:5px;background-color:#1c595a;color:#fff;font-size:1=
+.2em;width:auto;float:none}tr{margin:30px 0;padding:30px 0}tbody th{text-al=
+ign:left;padding:5px;background-color:#eee}tbody td{font-size:.9em}td.compr=
+obacion span{display:inline;font-size:.9em;white-space:nowrap}td.success_cr=
+iteria{padding-left:25px}td.comprobacion a.tecnica,td.lineas a,td.success_c=
+riteria a{display:inline;font-size:.9em;color:#000;background-color:transpa=
+rent;text-decoration:underline}td.comprobacion a.tecnica{text-decoration:un=
+derline}td.tipologia{vertical-align:top;padding:15px 0;padding-left:15px;fo=
+nt-weight:700}td.resultado{text-align:center;vertical-align:top;padding:15p=
+x 0 5px 0}td.incidencias{font-size:1.1em;padding:15px 0 5px 0;text-align:ce=
+nter;font-weight:700;vertical-align:top}td.lineas{font-size:.8em;font-style=
+:italic;padding:0 10px}div.taw_vista h3{display:block}#informe{width:95%;ma=
+rgin:auto auto}#leyenda{width:95%;font-size:.9em}#leyenda ul{text-align:cen=
+ter;margin:0;padding:0}#leyenda p{margin:5px 0 0 3%;font-weight:700}#leyend=
+a li{border:none;display:inline;float:none;white-space:nowrap;margin:0 5px}=
+#leyenda li img{vertical-align:middle;font-size:.9em}#leyenda li span{font-=
+weight:700}.ui-tabs-hide{display:none}.ui-tabs-nav{padding:0 0 0 10px;margi=
+n:0;clear:both}.ui-tabs-nav li{float:left;margin:0 5px 0 0;padding:0;list-s=
+tyle:none;border:1px solid #45c7c9;border-bottom:none}.ui-tabs-nav a{displa=
+y:block;font:bold 1em Verdana,Arial,Helvetica,sans-serif;white-space:nowrap=
+;padding:1px 1px 0 1px;background-color:#c9c9c9;color:gray;background-color=
+:#eaeaea;color:#666;border-bottom:none}.ui-tabs-nav a:hover{background-colo=
+r:#fff}.ui-tabs-nav a span{display:block;padding:5px 7px 9px 7px}.ui-tabs-n=
+av a span.pr2{border-top-color:#ff8901}.ui-tabs-nav a span.pr3{border-top-c=
+olor:#2fb601}.ui-tabs-nav a span.src{border-top-color:#0091AC}.ui-tabs-nav =
+.ui-tabs-selected a{position:relative;background-color:#1c595a;z-index:2;co=
+lor:#fff}.ui-tabs-panel{clear:both;background:#fff;border:1px solid #1c595a=
+}.ui-tabs-panel h3{display:none}.ui-tabs-panel h4{background-color:#7f7f7f;=
+padding:4px 8px;font-size:1.2em;color:#fff}.ui-tabs-panel ul,.ui-tabs-panel=
+ ul li{padding:0;margin:0;list-style:none}.ui-tabs-panel ul{margin:0 0 30px=
+ 0}.ui-tabs-panel ul li{padding:7px 0;border-bottom:1px solid #9f9f9f}.ui-t=
+abs-panel .lastItem{border:none}.ui-tabs-panel ul li strong{display:block;b=
+order-bottom:1px solid #ececec;padding:0 0 7px 0;color:#757575}.ui-tabs-pan=
+el ul li strong span{color:#2d2d2d}.ui-tabs-panel ul li img{float:left;marg=
+in:0 5px 0 0}.ui-tabs-panel ul li ul{margin:0}.ui-tabs-panel ul li ul li{ma=
+rgin:5px 0 0 0;padding:0;width:100%;clear:both;border-bottom:none}.ui-tabs-=
+panel ul li ul li a{color:#008390}.ui-tabs-panel ul li ul li a:hover{text-d=
+ecoration:underline}.hidden{display:none!important}.cluetip{margin-left:10p=
+x}a.linkToError,a.tecnica{margin-right:2px}a.linkToError{padding:2px;float:=
+left}</style>
+
+</head>
+<body>
+<h1 class=3D"hidden">TAW | Informe WCAG 2.0
+</h1>
+
+=09<img src=3D"http://www.google-analytics.com/collect?v=3D1&tid=3DUA-20549=
+256-7&cid=3D&t=3Devent&ec=3Demail&ea=3Dopen&el=3D603447&cs=3Danalisis&cm=3D=
+email&cn=3DDetalle_Analisis" class=3D"hidden" alt=3D""/>
+
+=09<div id=3D"head" class=3D"head">
+=09=09
+=09=09<img src=3D"https://www.tawdis.net/img/resumen/taw-logo.png" alt=3D"T=
+est accesibilidad web
+" style=3D"margin:20px"/>=20
+
+=09</div>
+
+=09<div id=3D"main">
+=09=09
+=09=09<p id=3D"donar">
+=09=C2=A1Ay=C3=BAdanos a mantener TAW! Desde hace 15 a=C3=B1os el proyecto =
+TAW fomenta la accesibilididad de la Web de forma gratuita.=20
+ <a id=3D"cookie-donar" target=3D"_blank"
+=09=09href=3D"http://www.fundacionctic.org/activos/taw/unete-al-taw">
+=09=09Donar TAW
+ </a>
+</p>
+
+=09=09<div id=3D"resumen" style=3D"min-height: 100px;">
+=09=09<h2 id=3D"title-info-analisis">
+=09=09=09Informaci=C3=B3n del an=C3=A1lisis
+=09=09</h2>
+=09=09
+=09=09<ul id=3D"info-analisis">
+=09=09=09<li><strong>Recurso:
+ </strong> https://despliegues-franciscoruiz.000webhostapp.com/vademecum.ht=
+ml </li>
+=09=09=09<li><strong>Fecha:
+ </strong> 08/06/2022 16:04  </li>
+=09=09=09<li><strong>Pautas
+ </strong> WCAG 2.0</li>
+=09=09=09<li><strong>Nivel del an=C3=A1lisis:
+ </strong> AA </li>
+=09=09=09<li><strong>Tecnolog=C3=ADas:
+</strong> HTML, CSS </li>
+=09=09</ul>
+=09</div>
+
+=09<div id=3D"informe">
+
+=09=09
+
+=09=09
+
+=09=09<div id=3D"principio_1" class=3D"principio">
+=09=09<h2><span>Perceptible
+</span></h2>
+=09=09
+=09=09<!-- <h3>La informaci=C3=B3n y los componentes de la interfaz de usua=
+rio deben ser presentados a los usuarios de modo que puedan percibirlos.
+</h3> -->
+
+
+=09=09<table>
+=09=09
+=09=09<caption>La informaci=C3=B3n y los componentes de la interfaz de usua=
+rio deben ser presentados a los usuarios de modo que puedan percibirlos.
+</caption>
+=09=09
+=09=09=09<thead>
+=09=09=09=09<tr>
+=09=09=09=09=09<th style=3D"width: 10%">Tipolog=C3=ADa
+</th>
+=09=09=09=09=09<th style=3D"width: 50%">Comprobaci=C3=B3n
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">T=C3=A9cnicas
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">Resultado
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">Incidencias
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">N=C3=BAmeros de Lineas
+</th>
+=09=09=09=09</tr>
+=09=09=09</thead>
+
+=09=09=09<tbody>
+
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">1.3.1-Informaci=C3=B3n y relaciones
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09Presentaci=C3=B3n
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Utilizaci=C3=B3n de atribut=
+os de presentaci=C3=B3n
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Defina la presentaci=
+=C3=B3n de los elementos mediante hojas de estilo
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G140">G140</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadodesconocido_mini.png" alt=3D"Desconocido
+" title=3D"Desconocido
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09<!-- Puede haber incidencias sin linea p.e.: no exi=
+ste ning=C3=83=C2=BAn h1 en la p=C3=83=C2=A1gina -->
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09     <a class=3D"linkToError" href=3D"#_view_1.3.1.=
+i_https://despliegues-franciscoruiz.000webhostapp.com/vademecum.html_linea_=
+3">3</a>
+=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">1.3.3-Caracter=C3=ADsticas sensoriales
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09Presentaci=C3=B3n
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Caracter=C3=ADsticas sensor=
+iales
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que no se pr=
+oporciona informaci=C3=B3n bas=C3=A1ndose exclusivamente en caracter=C3=ADs=
+ticas sensoriales (forma, tama=C3=B1o, posici=C3=B3n, sonido,...)
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G96">G96</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">1.4.1-Uso del color
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09Presentaci=C3=B3n
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Informaci=C3=B3n mediante c=
+olor
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que no se pr=
+oporciona informaci=C3=B3n bas=C3=A1ndose exclusivamente en su color
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G14">G14</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G122">G122</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G182">G182</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G183">G183</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">1.4.3-Contraste (M=C3=ADnimo)
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"2">
+=09=09=09=09=09=09Presentaci=C3=B3n
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Contraste
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Para textos menores de=
+ 18 puntos y no negrita o menor de 14 puntos y negrita existe un contraste =
+de al menos 4.5:1
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G18">G18</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G148">G148</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G174">G174</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Contraste para fuentes gran=
+des=20
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Para textos de al meno=
+s 18 puntos y no negrita o de al menos 14 puntos y negrita existe un contra=
+ste de al menos 3:1
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G145">G145</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G148">G148</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G174">G174</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">1.4.5-Im=C3=A1genes de texto
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09Im=C3=A1genes
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Im=C3=A1genes susceptibles =
+de ser sustituidas por marcado
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Cuando exista un marca=
+dor apropiado, use marcadores en vez de im=C3=A1genes para transmitir la in=
+formaci=C3=B3n.
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/C22">C22</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/C30">C30</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G140">G140</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09=09=09=09</tbody>
+=09=09</table>
+=09=09</div>=09
+=09=09=09=09
+
+=09=09
+
+=09=09<div id=3D"principio_2" class=3D"principio">
+=09=09<h2><span>Operable
+</span></h2>
+=09=09
+=09=09<!-- <h3>Los componentes de la interfaz de usuario y la navegaci=C3=
+=B3n deben ser operables.
+</h3> -->
+
+
+=09=09<table>
+=09=09
+=09=09<caption>Los componentes de la interfaz de usuario y la navegaci=C3=
+=B3n deben ser operables.
+</caption>
+=09=09
+=09=09=09<thead>
+=09=09=09=09<tr>
+=09=09=09=09=09<th style=3D"width: 10%">Tipolog=C3=ADa
+</th>
+=09=09=09=09=09<th style=3D"width: 50%">Comprobaci=C3=B3n
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">T=C3=A9cnicas
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">Resultado
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">Incidencias
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">N=C3=BAmeros de Lineas
+</th>
+=09=09=09=09</tr>
+=09=09=09</thead>
+
+=09=09=09<tbody>
+
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">2.1.1-Teclado
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09Scripts
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Movimiento autom=C3=A1tico =
+del foco
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"No provoque movimiento=
+s inesperados del foco
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G90">G90</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">2.1.2-Sin bloqueos de teclado
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09P=C3=A1gina web
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Movimiento del foco mediant=
+e teclado
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que se puede=
+ mover el foco de cualquier elemento mediante teclado=20
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G21">G21</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">2.2.1-Tiempo ajustable
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"3">
+=09=09=09=09=09=09P=C3=A1gina web
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">L=C3=ADmite de tiempo de se=
+si=C3=B3n
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que se propo=
+rciona un m=C3=A9todo para eliminar o ampliar el l=C3=ADmite de tiempo
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G133">G133</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G198">G198</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Limite de tiempo controlado=
+ mediante un script
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que se propo=
+rciona un m=C3=A9todo para eliminar o extender el l=C3=ADmite de tiempo
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G198">G198</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G180">G180</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/SCR16">SCR16</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Lectura de textos en movimi=
+ento
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que para tex=
+tos en movimiento se proporcionan mecanismos para pausar y reanudar el movi=
+miento
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G4">G4</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G198">G198</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/SCR33">SCR33</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/SCR36">SCR36</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">2.2.2-Pausar, detener, ocultar
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09P=C3=A1gina web
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Contenido en movimiento o p=
+arpadeante
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que se puede=
+ pausar y retomar cualquier contenido que se mueva, parpadee o se actualice
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G4">G4</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/SCR33">SCR33</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G187">G187</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G152">G152</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/SCR22">SCR22</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G186">G186</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G191">G191</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">2.3.1-Umbral de tres destellos o menos
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09Presentaci=C3=B3n
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Destellos por debajo del um=
+bral l=C3=ADmite.
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que no se pr=
+oducen destellos o que estos se mantienen por debajo del umbral l=C3=ADmite
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G19">G19</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G176">G176</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G15">G15</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">2.4.1-Evitar bloques
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"2">
+=09=09=09=09=09=09Navegaci=C3=B3n
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Saltar bloques de contenido=
+ repetidos
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que existen =
+mecanismos para saltar bloques de contenido que se repiten en diferentes p=
+=C3=A1ginas
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G1">G1</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G123">G123</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G124">G124</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Bloques de contenido
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Agrupe los bloques de =
+contenido repetidos de forma que puedan ser saltados
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/H50">H50</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/H70">H70</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/SCR28">SCR28</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">2.4.2-P=C3=A1ginas tituladas
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09P=C3=A1gina web
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">P=C3=A1gina con t=C3=ADtulo=
+ descriptivo
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que el t=C3=
+=ADtulo de la p=C3=A1gina es descriptivo
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G88">G88</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadodesconocido_mini.png" alt=3D"Desconocido
+" title=3D"Desconocido
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09<!-- Puede haber incidencias sin linea p.e.: no exi=
+ste ning=C3=83=C2=BAn h1 en la p=C3=83=C2=A1gina -->
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09     <a class=3D"linkToError" href=3D"#_view_2.4.2.=
+d_https://despliegues-franciscoruiz.000webhostapp.com/vademecum.html_linea_=
+2">2</a>
+=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">2.4.3-Orden del foco
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09Navegaci=C3=B3n
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Orden l=C3=B3gico de navega=
+ci=C3=B3n
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que la p=C3=
+=A1gina mantiene un orden secuencial de navegaci=C3=B3n l=C3=B3gico
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G59">G59</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/H4">H4</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/SCR26">SCR26</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/SCR37">SCR37</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/SCR27">SCR27</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">2.4.5-M=C3=BAltiples v=C3=ADas
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09Sitio web
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">M=C3=BAltiples m=C3=A9dios =
+de localizaci=C3=B3n
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que se propo=
+rcionan m=C3=BAltiples medios para localizar p=C3=A1ginas relacionadas
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G125">G125</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G64">G64</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G63">G63</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G161">G161</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G126">G126</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G185">G185</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">2.4.6-Encabezados y etiquetas
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09Estructura y sem=C3=A1ntica
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Contenido adecuado de encab=
+ezados y etiquetas.
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que el conte=
+nido de los encabezados y etiquetas del documento es el adecuado
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G130">G130</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G131">G131</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadodesconocido_mini.png" alt=3D"Desconocido
+" title=3D"Desconocido
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09<!-- Puede haber incidencias sin linea p.e.: no exi=
+ste ning=C3=83=C2=BAn h1 en la p=C3=83=C2=A1gina -->
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09     <a class=3D"linkToError" href=3D"#_view_2.4.6.=
+a_https://despliegues-franciscoruiz.000webhostapp.com/vademecum.html_linea_=
+4">4</a>
+=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">2.4.7-Foco visible
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09Scripts
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Cambio de foco con el event=
+o 'onfocus'
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Los eventos 'onfocus' =
+sobre un elemento no debe cambiar el foco a otro elemento
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/F55">F55</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09=09=09=09</tbody>
+=09=09</table>
+=09=09</div>=09
+=09=09=09=09
+
+=09=09
+
+=09=09<div id=3D"principio_3" class=3D"principio">
+=09=09<h2><span>Comprensible
+</span></h2>
+=09=09
+=09=09<!-- <h3>La informaci=C3=B3n y el manejo de la interfaz de usuario de=
+be ser comprensible.
+</h3> -->
+
+
+=09=09<table>
+=09=09
+=09=09<caption>La informaci=C3=B3n y el manejo de la interfaz de usuario de=
+be ser comprensible.
+</caption>
+=09=09
+=09=09=09<thead>
+=09=09=09=09<tr>
+=09=09=09=09=09<th style=3D"width: 10%">Tipolog=C3=ADa
+</th>
+=09=09=09=09=09<th style=3D"width: 50%">Comprobaci=C3=B3n
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">T=C3=A9cnicas
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">Resultado
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">Incidencias
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">N=C3=BAmeros de Lineas
+</th>
+=09=09=09=09</tr>
+=09=09=09</thead>
+
+=09=09=09<tbody>
+
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">3.1.1-Idioma de la p=C3=A1gina
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"2">
+=09=09=09=09=09=09P=C3=A1gina web
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Declaraci=C3=B3n de idioma =
+del documento
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"No se ha declarado el =
+idioma principal del documento.
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/H57">H57</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadofalla_mini.png" alt=3D"Falla
+" title=3D"Falla
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09<!-- Puede haber incidencias sin linea p.e.: no exi=
+ste ning=C3=83=C2=BAn h1 en la p=C3=83=C2=A1gina -->
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09     <a class=3D"linkToError" href=3D"#_view_3.1.1.=
+a_https://despliegues-franciscoruiz.000webhostapp.com/vademecum.html_linea_=
+1">1</a>
+=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Idioma declarado e idioma r=
+eal
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que el idiom=
+a declarado en las p=C3=A1ginas coincide con el idioma utilizado en sus con=
+tenidos
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/H57">H57</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">3.1.2-Idioma de las partes
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09P=C3=A1gina web
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Cambios en el idioma
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que se ident=
+ifican los cambios en el idioma
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/H58">H58</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">3.2.1-Al recibir el foco
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"4">
+=09=09=09=09=09=09Scripts
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Cambio de contenidos con el=
+ evento 'onfocus'
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"No provoque cambios en=
+ los contenidos al mover el foco
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G107">G107</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Cambios inesperados del foc=
+o en el evento 'onfocus'
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Los eventos 'onfocus' =
+sobre un elemento no deben cambiar el receptor del foco
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/F55">F55</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Apertura de ventana al camb=
+iar el foco
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"No provoque la apertur=
+a autom=C3=A1tica de nuevas ventanas al cambiar el foco
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G107">G107</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09<tr>=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Apertura de ventana con el =
+evento 'onload'
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"El evento 'onload' de =
+la p=C3=A1gina no debe causar la apertura de nuevas ventanas
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/F52">F52</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09P=C3=A1gina web
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Cambio de contenidos con el=
+ evento 'onfocus'
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que no se pr=
+oduce un cambio de contexto=20
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G107">G107</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">3.2.2-Al introducir datos
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09Formularios
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Cambios causados por el eve=
+nto 'onChange' en un selector
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"El evento 'onchange' s=
+obre un selector en un formulario no debe originar cambios de contenidos en=
+ el documento ni redirecciones
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/H84">H84</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">3.2.3-Navegaci=C3=B3n consistente
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09Sitio web
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Navegaci=C3=B3n consistente
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que se manti=
+ene una navegaci=C3=B3n consistente entre diferentes p=C3=A1ginas
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G61">G61</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">3.2.4-Identificaci=C3=B3n consistente
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09Sitio web
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Denominaci=C3=B3n consisten=
+te
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que los mism=
+os elementos mantienen la misma denominaci=C3=B3n entre diferentes p=C3=A1g=
+inas
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G197">G197</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09=09=09</tbody>
+=09=09</table>
+=09=09</div>=09
+=09=09=09=09
+
+=09=09
+
+=09=09<div id=3D"principio_4" class=3D"principio">
+=09=09<h2><span>Robusto
+</span></h2>
+=09=09
+=09=09<!-- <h3>El contenido debe ser suficientemente robusto como para ser =
+interpretado de forma fiable por una amplia variedad de agentes de usuario,=
+ incluyendo las ayudas t=C3=A9cnicas.
+</h3> -->
+
+
+=09=09<table>
+=09=09
+=09=09<caption>El contenido debe ser suficientemente robusto como para ser =
+interpretado de forma fiable por una amplia variedad de agentes de usuario,=
+ incluyendo las ayudas t=C3=A9cnicas.
+</caption>
+=09=09
+=09=09=09<thead>
+=09=09=09=09<tr>
+=09=09=09=09=09<th style=3D"width: 10%">Tipolog=C3=ADa
+</th>
+=09=09=09=09=09<th style=3D"width: 50%">Comprobaci=C3=B3n
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">T=C3=A9cnicas
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">Resultado
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">Incidencias
+</th>
+=09=09=09=09=09<th style=3D"width: 10%">N=C3=BAmeros de Lineas
+</th>
+=09=09=09=09</tr>
+=09=09=09</thead>
+
+=09=09=09<tbody>
+
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09
+=09=09=09=09<tr>
+=09=09=09=09=09<th colspan=3D"6">4.1.2-Nombre, funci=C3=B3n, valor
+</th>
+=09=09=09=09</tr>
+
+
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td class=3D"tipologia" rowspan=3D"1">
+=09=09=09=09=09=09P=C3=A1gina web
+</td>
+=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion">Nombre, rol y valor
+=09=09=09=09=09=09=09=09<img class=3D"ayuda cluetip" src=3D"https://www.taw=
+dis.net/img/resumen/help.png" alt=3D"Ayuda" title=3D"Compruebe que se propo=
+rcionan el nombre, rol y valor para los componentes de interacci=C3=B3n con=
+ la persona usuaria
+" />
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"comprobacion" style=3D"width: 5%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a class=3D"tecnica" hre=
+f=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/G108">G108</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/SCR21">SCR21</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G135">G135</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a class=3D"tecnica" href=3D"http://www.w3.org/TR/2008/NOTE-WCAG20-TECHS=
+-20081211/G10">G10</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</t=
+d>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"resultado">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://www.taw=
+dis.net/img/resumen/tiporesultadosinrevisar_mini.png" alt=3D"Sin revisar
+" title=3D"Sin revisar
+"/>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"incidencias">
+=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=091
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09
+=09=09=09=09=09=09=09<td class=3D"lineas">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09
+=09=09=09=09=09=09=09=09
+
+=09=09=09=09
+=09=09=09
+=09=09=09=09=09=09</tbody>
+=09=09</table>
+=09=09</div>=09
+=09=09=09=09
+
+=09=09<div id=3D"source_code" class=3D"taw_resultado">
+=09=09
+=09=09<h2 id=3D"title-info-analisis">
+=09=09=09C=C3=B3digo fuente
+=09=09</h2>
+=09=09
+=09=09
+=09=09=09<ul>
+=09=09=09=09=09=09=09=09=09<li><a href=3D"#src1" title=3D"https://despliegu=
+es-franciscoruiz.000webhostapp.com/vademecum.html"><span
+=09=09=09=09=09=09=09class=3D"src">=20
+=09=09=09=09=09=09=09 HTML =09=09=09=09=09=09=09=09=09=09=09=09=09</span></=
+a></li>
+=09=09=09=09=09=09=09</ul>
+=09=09=09=09=09=09
+=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09<div id=3D"src1" class=3D"srcBlock">
+=09=09=09=09=09=09=09=09=09=09=09<h3>
+=09=09=09=09=09=09=09Global
+=09=09=09=09=09=09</h3>
+=09=09=09=09=09=09<div id=3D"src${viewindex}_-" class=3D"taw_cont">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Caracter=C3=ADsticas sensoriales
+"
+=09=09=09=09=09=09=09=09=09title=3D"Caracter=C3=ADsticas sensoriales
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Informaci=C3=B3n mediante color
+"
+=09=09=09=09=09=09=09=09=09title=3D"Informaci=C3=B3n mediante color
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Contraste
+"
+=09=09=09=09=09=09=09=09=09title=3D"Contraste
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Contraste para fuentes grandes=20
+"
+=09=09=09=09=09=09=09=09=09title=3D"Contraste para fuentes grandes=20
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Movimiento autom=C3=A1tico del foco
+"
+=09=09=09=09=09=09=09=09=09title=3D"Movimiento autom=C3=A1tico del foco
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Movimiento del foco mediante teclado
+"
+=09=09=09=09=09=09=09=09=09title=3D"Movimiento del foco mediante teclado
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"L=C3=ADmite de tiempo de sesi=C3=B3n
+"
+=09=09=09=09=09=09=09=09=09title=3D"L=C3=ADmite de tiempo de sesi=C3=B3n
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Limite de tiempo controlado mediante un s=
+cript
+"
+=09=09=09=09=09=09=09=09=09title=3D"Limite de tiempo controlado mediante un=
+ script
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Lectura de textos en movimiento
+"
+=09=09=09=09=09=09=09=09=09title=3D"Lectura de textos en movimiento
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Contenido en movimiento o parpadeante
+"
+=09=09=09=09=09=09=09=09=09title=3D"Contenido en movimiento o parpadeante
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Destellos por debajo del umbral l=C3=ADmi=
+te.
+"
+=09=09=09=09=09=09=09=09=09title=3D"Destellos por debajo del umbral l=C3=AD=
+mite.
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Saltar bloques de contenido repetidos
+"
+=09=09=09=09=09=09=09=09=09title=3D"Saltar bloques de contenido repetidos
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Bloques de contenido
+"
+=09=09=09=09=09=09=09=09=09title=3D"Bloques de contenido
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Orden l=C3=B3gico de navegaci=C3=B3n
+"
+=09=09=09=09=09=09=09=09=09title=3D"Orden l=C3=B3gico de navegaci=C3=B3n
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Idioma declarado e idioma real
+"
+=09=09=09=09=09=09=09=09=09title=3D"Idioma declarado e idioma real
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Cambio de contenidos con el evento 'onfoc=
+us'
+"
+=09=09=09=09=09=09=09=09=09title=3D"Cambio de contenidos con el evento 'onf=
+ocus'
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Cambio de contenidos con el evento 'onfoc=
+us'
+"
+=09=09=09=09=09=09=09=09=09title=3D"Cambio de contenidos con el evento 'onf=
+ocus'
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Cambios inesperados del foco en el evento=
+ 'onfocus'
+"
+=09=09=09=09=09=09=09=09=09title=3D"Cambios inesperados del foco en el even=
+to 'onfocus'
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Apertura de ventana al cambiar el foco
+"
+=09=09=09=09=09=09=09=09=09title=3D"Apertura de ventana al cambiar el foco
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Apertura de ventana con el evento 'onload=
+'
+"
+=09=09=09=09=09=09=09=09=09title=3D"Apertura de ventana con el evento 'onlo=
+ad'
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Cambios causados por el evento 'onChange'=
+ en un selector
+"
+=09=09=09=09=09=09=09=09=09title=3D"Cambios causados por el evento 'onChang=
+e' en un selector
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Nombre, rol y valor
+"
+=09=09=09=09=09=09=09=09=09title=3D"Nombre, rol y valor
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Im=C3=A1genes susceptibles de ser sustitu=
+idas por marcado
+"
+=09=09=09=09=09=09=09=09=09title=3D"Im=C3=A1genes susceptibles de ser susti=
+tuidas por marcado
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"M=C3=BAltiples m=C3=A9dios de localizaci=
+=C3=B3n
+"
+=09=09=09=09=09=09=09=09=09title=3D"M=C3=BAltiples m=C3=A9dios de localizac=
+i=C3=B3n
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Cambio de foco con el evento 'onfocus'
+"
+=09=09=09=09=09=09=09=09=09title=3D"Cambio de foco con el evento 'onfocus'
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Cambios en el idioma
+"
+=09=09=09=09=09=09=09=09=09title=3D"Cambios en el idioma
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Navegaci=C3=B3n consistente
+"
+=09=09=09=09=09=09=09=09=09title=3D"Navegaci=C3=B3n consistente
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Denominaci=C3=B3n consistente
+"
+=09=09=09=09=09=09=09=09=09title=3D"Denominaci=C3=B3n consistente
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Contraste mejorado
+"
+=09=09=09=09=09=09=09=09=09title=3D"Contraste mejorado
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Contraste mejorado para fuentes grandes
+"
+=09=09=09=09=09=09=09=09=09title=3D"Contraste mejorado para fuentes grandes
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Colores de fondo y primer plano en bloque=
+s de texto
+"
+=09=09=09=09=09=09=09=09=09title=3D"Colores de fondo y primer plano en bloq=
+ues de texto
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Ancho en caracteres de bloques de texto
+"
+=09=09=09=09=09=09=09=09=09title=3D"Ancho en caracteres de bloques de texto
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Alineaci=C3=B3n de bloques de texto
+"
+=09=09=09=09=09=09=09=09=09title=3D"Alineaci=C3=B3n de bloques de texto
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Espacio de lineas en bloques texto
+"
+=09=09=09=09=09=09=09=09=09title=3D"Espacio de lineas en bloques texto
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Redimensionamiento de bloques de texto
+"
+=09=09=09=09=09=09=09=09=09title=3D"Redimensionamiento de bloques de texto
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Imagenes de texto
+"
+=09=09=09=09=09=09=09=09=09title=3D"Imagenes de texto
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Limitaci=C3=B3n de tiempo
+"
+=09=09=09=09=09=09=09=09=09title=3D"Limitaci=C3=B3n de tiempo
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Caducidad de la informaci=C3=B3n de auten=
+ticaci=C3=B3n
+"
+=09=09=09=09=09=09=09=09=09title=3D"Caducidad de la informaci=C3=B3n de aut=
+enticaci=C3=B3n
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Destellos
+"
+=09=09=09=09=09=09=09=09=09title=3D"Destellos
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Ubicaci=C3=B3n
+"
+=09=09=09=09=09=09=09=09=09title=3D"Ubicaci=C3=B3n
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Palabras con significados inusuales
+"
+=09=09=09=09=09=09=09=09=09title=3D"Palabras con significados inusuales
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Abreviaturas y acr=C3=B3nimos
+"
+=09=09=09=09=09=09=09=09=09title=3D"Abreviaturas y acr=C3=B3nimos
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Nivel de lectura
+"
+=09=09=09=09=09=09=09=09=09title=3D"Nivel de lectura
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09<img class=3D"taw_icon"
+=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resumen/tipore=
+sultadosinrevisar_mini.png"
+=09=09=09=09=09=09=09=09=09alt=3D"Pronunciaci=C3=B3n
+"
+=09=09=09=09=09=09=09=09=09title=3D"Pronunciaci=C3=B3n
+" />
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09
+
+=09=09=09=09=09<h3>
+=09=09=09=09=09=09C=C3=B3digo fuente
+: https://despliegues-franciscoruiz.000webhostapp.com/vademecum.html
+=09=09=09=09=09</h3>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=091.=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09<a id=3D"_view_3.1.1.a_https://despliegues-franciscoruiz.000webhostapp.c=
+om/vademecum.html_linea_1"></a>=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img class=
+=3D"cluetip"
+=09=09=09=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resum=
+en/ico_1a.gif"
+=09=09=09=09=09=09=09=09=09=09=09=09alt=3D"Error automtico de prioridad 1"
+=09=09=09=09=09=09=09=09=09=09=09=09title=3D"No se ha declarado el idioma p=
+rincipal del documento." />=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;html&gt;
+
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=092.=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;head&gt;
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09<a id=3D"_view_2.4.2.d_https://despliegues-franc=
+iscoruiz.000webhostapp.com/vademecum.html_linea_2"></a>=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img class=
+=3D"cluetip"
+=09=09=09=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resum=
+en/ico_1m.gif"
+=09=09=09=09=09=09=09=09=09=09=09=09alt=3D"Error manual de prioridad 1"
+=09=09=09=09=09=09=09=09=09=09=09=09title=3D"Compruebe que el t=C3=ADtulo d=
+e la p=C3=A1gina es descriptivo" />=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;title&gt;502 Bad Gateway&lt;/title&gt;&lt=
+;/head&gt;
+
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=093.=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09<a id=3D"_view_1.3.1.i_https://despliegues-franc=
+iscoruiz.000webhostapp.com/vademecum.html_linea_3"></a>=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img class=
+=3D"cluetip"
+=09=09=09=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resum=
+en/ico_1m.gif"
+=09=09=09=09=09=09=09=09=09=09=09=09alt=3D"Error manual de prioridad 1"
+=09=09=09=09=09=09=09=09=09=09=09=09title=3D"No utilice el atributo bgcolor=
+ para modificar la presentaci=C3=B3n" />=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;body bgcolor=3D&quot;white&quot;&gt;
+
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=094.=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;center&gt;
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09<a id=3D"_view_2.4.6.a_https://despliegues-franc=
+iscoruiz.000webhostapp.com/vademecum.html_linea_4"></a>=09
+=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<img class=
+=3D"cluetip"
+=09=09=09=09=09=09=09=09=09=09=09=09src=3D"https://www.tawdis.net/img/resum=
+en/ico_2m.gif"
+=09=09=09=09=09=09=09=09=09=09=09=09alt=3D"Error manual de prioridad 2"
+=09=09=09=09=09=09=09=09=09=09=09=09title=3D"Compruebe que el contenido de =
+los encabezados y etiquetas del documento es el adecuado" />=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;h1&gt;502 Bad Gateway&lt;/h1&gt;&lt;/cent=
+er&gt;
+
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=095.=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;hr&gt;&lt;center&gt;nginx/1.13.8&lt;/cent=
+er&gt;
+
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=096.=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;/body&gt;
+
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=097.=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;/html&gt;
+
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=098.=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;!-- a padding to disable MSIE and Chrome =
+friendly error page --&gt;
+
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=099.=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;!-- a padding to disable MSIE and Chrome =
+friendly error page --&gt;
+
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=0910.=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;!-- a padding to disable MSIE and Chrome =
+friendly error page --&gt;
+
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=0911.=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;!-- a padding to disable MSIE and Chrome =
+friendly error page --&gt;
+
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=0912.=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;!-- a padding to disable MSIE and Chrome =
+friendly error page --&gt;
+
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=0913.=20
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09
+=09=09=09=09=09=09=09=09=09=09&lt;!-- a padding to disable MSIE and Chrome =
+friendly error page --&gt;
+
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09<div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09 .... =09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09</div>
+
+
+=09</div>
+
+=09</div>
+=09
+=09<div id=3D"top"><a href=3D"#"><img style=3D"width:100%" src=3D"https://w=
+ww.tawdis.net/img/resumen/up.svg" title=3D"Up" alt=3D"Up"/></a></div>
+=09
+</body>
+</html>
