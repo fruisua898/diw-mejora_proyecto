@@ -6,26 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/scss/app.scss"/>
     <link rel="stylesheet" href="assets/scss/register.scss"/>
-    <title>Document</title>
+    <title>Critical Blunder, Register</title>
 </head>
-<body>
-<script>
-    function myFunction() {
-        check = document.getElementById("nav-container").style.display;
-
-        if (check == "flex"){
-            document.getElementById("nav-container").style.display = "none";
-        }else{
-            document.getElementById("nav-container").style.display = "flex";
-        }
-
-    }
-</script>
+<body lang="en-es">
 
 <header>
 
-    <a href="index.html">
-        <svg width="52" height="59" viewBox="0 0 52 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <a aria-label="Index" href="index.html">
+        <svg aria-labelledby="svg-title" aria-describedby="svg-desc" width="52" height="59" viewBox="0 0 52 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <title id="svg-title">Logo</title>
+            <desc id="svg-desc">A twenty carat dice.</desc>
             <path opacity="0.352941" d="M3.97034 45.1956L7.75014 42.3806L18.7656 52.965L17.7937 54.5414L3.97034 45.1956Z" stroke="var(--gris-oscuro)" stroke-width="0.264583"/>
             <path opacity="0.352941" d="M10.99 43.1688L25.8933 58.1447L41.3366 43.1688H10.99Z" stroke="var(--gris-oscuro)" stroke-width="0.264583"/>
             <path opacity="0.352941" d="M33.5609 52.965L44.7924 42.7184L47.9242 45.1956L33.7769 54.2037L33.5609 52.965Z" stroke="var(--gris-oscuro)" stroke-width="0.264583"/>
@@ -49,7 +39,7 @@
         </svg>
     </a>
     <h1>Critical <em>Blunder</em></h1>
-    <button  onclick="myFunction()">
+    <button aria-label="Inicio" onclick="myFunction()">
         <svg viewBox="0 0 100 80" width="40" height="40">
             <path stroke-width="10"   d="M5 13h90v14H5z"/>
             <path stroke-width="10" class="line line-2" d="M5 43h90v14H5z"/>
@@ -61,28 +51,29 @@
     <ul>
 
         <li>
-            <a href="index.html">Inicio</a>
+            <a aria-label="Index" href="index.html">Inicio</a>
         </li>
 
         <li>
-            <a href="vademecum.html">Vademecum</a>
+            <a aria-label="Vademecum" href="vademecum.html">Vademecum</a>
         </li>
 
         <li>
-            <a  href="tabletop.html">Tabletop</a>
+            <a aria-label="Tabletop" href="tabletop.html">Tabletop</a>
         </li>
 
         <li>
-            <a  href="support.html">Contacto</a>
+            <a aria-label="Support" href="support.html">Support</a>
         </li>
 
         <li>
-            <a  href="register.html">Login
+            <a aria-label="Register, you are here" href="#">Login
                 <i class="fas fa-caret-down"></i>
             </a>
         </li>
     </ul>
 </nav>
+
 <main>
     <form>
         <span>
@@ -94,7 +85,7 @@
             </h3>
         </span>
 
-        <label for="user">Usuario</label>
+        <label for="user">User</label>
         <input type="text" id="user"/>
 
         <label for="mail">Email</label>
@@ -106,20 +97,21 @@
         <label for="rppass">Repeat Password</label>
         <input type="password" id="rppass"/>
 
-        <label for="condiciones"> Estoy de acuerdo con los terminos de Critical Blunder.
+        <label for="condiciones"> I'm fine with Critical Blunder terms.
         </label>
         <input type="checkbox" id="condiciones"/>
-        <button>
-            Crear una cuenta
+        <button type="submit" aria-label="Crear cuenta">
+            Create an account
         </button>
     </form>
 
 </main>
-<footer>
 
+<footer>
     <ul>
         <li>
-            <svg width="52" height="59" viewBox="0 0 52 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+            <svg  width="52" height="59" viewBox="0 0 52 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path opacity="0.352941" d="M3.97034 45.1956L7.75014 42.3806L18.7656 52.965L17.7937 54.5414L3.97034 45.1956Z" stroke="var(--gris-oscuro)" stroke-width="0.264583"/>
                 <path opacity="0.352941" d="M10.99 43.1688L25.8933 58.1447L41.3366 43.1688H10.99Z" stroke="var(--gris-oscuro)" stroke-width="0.264583"/>
                 <path opacity="0.352941" d="M33.5609 52.965L44.7924 42.7184L47.9242 45.1956L33.7769 54.2037L33.5609 52.965Z" stroke="var(--gris-oscuro)" stroke-width="0.264583"/>
@@ -152,41 +144,41 @@
     </ul>
     <ul>
         <li>
-            <a href="">
-                Aviso Legal
+            <a aria-label="Disclaimer" href="">
+                Disclaimer
             </a>
         </li>
 
         <li>
-            <a href="">
+            <a aria-label="Cookies" href="">
                 Cookies
             </a>
         </li>
 
         <li>
-            <a href="">
-                Política de Privacidad
+            <a aria-label="Privacity" href="">
+                Privacity
             </a>
         </li>
     </ul>
     <ul>
         <li>
-            <a href="">
+            <a aria-label="Instagram" href="">
                 Instagram
             </a>
         </li>
         <li>
-            <a href="">
+            <a aria-label="Twitter" href="">
                 Twitter
             </a>
         </li>
         <li>
-            <a href="">
+            <a aria-label="Facebook" href="">
                 Facebook
             </a>
         </li>
         <li>
-            <a href="">
+            <a aria-label="Telegram" href="">
                 Telegram
             </a>
         </li>
